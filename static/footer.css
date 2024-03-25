@@ -1,0 +1,85 @@
+.logo img {
+    height:125px;
+    width: 150px;
+    margin: 100px left;
+    image-rendering: 50px;
+    margin-top:30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #24262b;
+    padding: 20px;
+    text-align: left;
+    font-size: 14px;
+    color: white;
+}
+
+.column-1 {
+    margin-right: 50px;
+}
+
+.column-2 {
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.column-3 {
+    margin-right: 50px;
+    width: 40%;
+}
+
+.column-4 {
+    margin-right: 50px;
+    width: 40%;
+}
+
+.column-3 a {
+    color: #ffffff;
+}
+
+.contact ul li {
+    color: white;
+    text-align: left;
+    margin-left: 60px;
+    font-size: 12px;
+}
+
+.contact ul li a {
+    color: white;
+    text-align: left;
+}
+
+.column-4 .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 3px 3px 3px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.column .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}

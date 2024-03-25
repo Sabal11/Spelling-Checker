@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+  Result
+{% endblock %}
+
+{% block extrahead %}
+  <link rel="stylesheet" href="../static/result.css" />
+{% endblock %}
+
+{% block content %}
+<div class = result>
+  <h2>Spell Check Result</h2>
+  <p>Original Text:</p>
+  <pre>{{ text_to_check }}</pre>
+  <p>Corrected Text:</p>
+  <pre>{{ corrected_text }}</pre>
+</div>
+{% endblock %}

@@ -1,0 +1,71 @@
+.container {
+  padding-top: 50px;
+}
+
+.first h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.first p{
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wrapper h2 {
+  text-align: center;
+  margin-bottom: 11 px;
+  letter-spacing: 3px;
+  color: black;
+}
+
+.wrapper .input_field {
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea {
+  border: 1px solid #eeb7b7;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea {
+  resize: none;
+  height: 100px;
+}
+
+.wrapper .btn input[type="submit"] {
+  border: 0px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background-color: #499557 ;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message {
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
