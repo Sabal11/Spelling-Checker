@@ -17,6 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from spelling import views
+from login.views import loginaction
 
 urlpatterns = [
     path('', include('corrector.urls')),
@@ -24,4 +25,6 @@ urlpatterns = [
     path('aboutus', views.about),
     path('contactus', views.contact),
     path('contactus', views.click),
+    path('login/',loginaction),
+    path('signup', views.sign),
 ]

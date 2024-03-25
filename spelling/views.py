@@ -11,3 +11,7 @@ def contact (request):
     return render (request, "contact.html")
 def click (request):
     return render (request, "contact.html")
+def login(request):
+    return render(request,"login_page.html")
+def sign(request):
+    return render(request,"signup_page.html")
