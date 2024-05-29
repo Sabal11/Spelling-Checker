@@ -1,5 +1,4 @@
 from django.shortcuts import render
-import mysql.connector as sql
 em=''
 pw=''
 
